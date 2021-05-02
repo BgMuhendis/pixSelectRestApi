@@ -1,0 +1,21 @@
+@Base_Url=http://localhost:3000/users
+
+
+POST {{Base_Url}}/register
+Content-Type: application/json
+
+{
+    "name":"Muhadmmet",
+    "email":"muhammedhhadikamatt@gmail.com",
+    "password":"15975-+-"
+}
+
+###
+POST {{Base_Url}}/login
+Content-Type: application/json
+
+{
+    "email":"muhammedhhadikamatt@gmail.com",
+    "password":"15975-+-"
+}
+
