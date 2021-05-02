@@ -1,4 +1,4 @@
-@Base_Url=http://localhost:3000/users
+@Base_Url=http://localhost:8080/users
 
 
 POST {{Base_Url}}/register
